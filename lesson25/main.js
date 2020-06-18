@@ -1,3 +1,6 @@
+// indexOf 最初に現れるインデックス
+// lastIndexOf 最後に現れるインデックス
+// search 正規表現にマッチするインデックス
 const myString = 'JavaScriptを覚えよう';
 
 // 含まれる場合
