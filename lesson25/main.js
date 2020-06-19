@@ -1,7 +1,10 @@
+// indexOf 最初に現れるインデックス
+// lastIndexOf 最後に現れるインデックス
+// search 正規表現にマッチするインデックス
 const myString = 'JavaScriptを覚えよう';
 
 // 含まれる場合
-// indeOf 文字列が現れるまでの数値を処理
+// indexOf 文字列が現れるまでの数値を処理
 const a1 = myString.indexOf('JavaScript');
 console.log(a1); //結果 0
 
