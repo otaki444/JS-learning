@@ -1,0 +1,26 @@
+* {
+  text-align: center;
+}
+
+#time {
+  width: 200px;
+  margin: 10px auto;
+  color: royalblue;
+  padding: 2px 0;
+  border: 1px solid royalblue;
+  font-weight: bold;
+}
+
+#button {
+  width: 200px;
+  margin: 10px auto;
+  color: white;
+  background-color: yellowgreen;
+  border: 1px solid green;
+  font-weight: bold;
+	padding: 10px;
+}
+
+#button:hover {
+  cursor: pointer;
+}
