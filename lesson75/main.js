@@ -13,6 +13,9 @@
 
 console.log(typeof undefined);// 結果: undefined
 
+const n = null;
+console.log(typeof n);// 結果: object(nullの結果はobjectになる)
+
 console.log(typeof true);// 結果: boolean
 
 console.log(typeof 'Hello World');// 結果: string
