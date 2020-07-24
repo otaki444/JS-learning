@@ -1,0 +1,43 @@
+* {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.clock {
+  border-radius: 50%;
+  border: 3px solid black;
+  width: 400px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+.hour {
+  width: 10px;
+  height: 150px;
+  background: navy;
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 5px);
+  transform-origin: bottom;
+}
+
+.minute {
+  width: 4px;
+  height: 200px;
+  background: blue;
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 2px);
+  transform-origin: bottom;
+}
+
+.second {
+  width: 2px;
+  height: 200px;
+  background: skyblue;
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 1px);
+  transform-origin: bottom;
+}
