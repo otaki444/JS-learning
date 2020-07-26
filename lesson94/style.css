@@ -1,0 +1,8 @@
+* {
+  text-align: center;
+}
+
+#log {
+  font-weight: bold;
+  color: green;
+}
