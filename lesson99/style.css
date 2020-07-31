@@ -1,0 +1,14 @@
+* {
+  text-align: center;
+}
+
+main {
+  background: url(image.jpg) center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+button {
+  margin-top: 85vh;
+}
