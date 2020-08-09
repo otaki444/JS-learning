@@ -1,0 +1,17 @@
+* {
+  text-align: center;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: gray;
+  color: white;
+  line-height: 100px;
+  border: 1px solid white;
+}
